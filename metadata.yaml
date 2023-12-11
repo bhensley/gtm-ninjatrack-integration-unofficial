@@ -1,5 +1,5 @@
 homepage: "https://919marketing.com"
 documentation: "https://919marketing.com"
 versions:
-  - sha:
+  - sha: db9b0382e39850ed6082202328c2a348db89a249
     changeNotes: Initial release.
