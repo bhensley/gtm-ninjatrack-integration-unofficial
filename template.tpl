@@ -51,7 +51,7 @@ const log = require('logToConsole');
 const queryPermission = require('queryPermission');
 const injectScript = require('injectScript');
 
-const scriptUrl = "https://assets.mymarketingreports.com/js/dni.js?nt_id=" + data.NinjaTrackID;
+const scriptUrl = "https://assets.mymarketingreports.com/js/dni.js?nt_id=" + encodeURIComponent(data.NinjaTrackID);
 log('NT Script URL: ' + scriptUrl);
 
 const onSuccess = () => {
